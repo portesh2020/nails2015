@@ -1,0 +1,165 @@
+body {
+  font-family: "Open Sans", sans-serif; }
+
+h1 {
+  color: #ccc;
+  weight: 300; }
+
+figure {
+  margin: auto; }
+
+.content article {
+  padding: 100px 0;
+  max-width: 640px;
+  margin: 0 auto;
+  text-align: center; }
+
+img {
+  max-width: 100%; }
+
+.bird-box {
+  position: relative;
+  height: 600px;
+  overflow: hidden;
+  background-image: url("../images/collagewithname.jpg");
+  background-size: contain;
+  background-position: top center;
+  background-attachment: fixed; }
+
+.logo {
+  height: 100px;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 50%;
+  margin-top: -50px; }
+
+.forebird {
+  width: 960px;
+  height: 250px;
+  background-image: url("../images/spill.png");
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  position: absolute;
+  left: 80%;
+  margin-left: -480px;
+  top: 170px; }
+
+.drops {
+  width: 960px;
+  height: 600px;
+  background-image: url("../images/drops.png");
+  background-repeat: no-repeat;
+  background-position: top left;
+  position: absolute;
+  left: 30%;
+  margin-left: -480px; }
+
+.gallery {
+  padding-left: 70px; }
+  .gallery figure a img {
+    width: 150px;
+    height: auto;
+    float: left;
+    margin: 10px 10px 10px 10px; }
+
+.scroll {
+  margin: auto;
+  width: 15%;
+  position: relative;
+  top: 85%; }
+
+.gallery figure {
+  position: relative;
+  opacity: 0;
+  transform: translateX(300px);
+  transition: all 0.8s ease-in-out; }
+  .gallery figure.is-showing {
+    opacity: 1;
+    transform: translateX(0px); }
+
+h6 {
+  margin-left: 8.5%;
+  font-size: 13px;
+  color: gray;
+  margin-bottom: 7%;
+  font-family: Courier New; }
+
+header {
+  font-family: Didot; }
+
+p {
+  font-size: 120%; }
+
+.contact {
+  text-align: justify;
+  margin-left: 8%;
+  margin-bottom: 8%;
+  font-family: Didot; }
+  .contact a {
+    text-decoration: none;
+    color: #AD8DEE; }
+
+.inspiration {
+  font-size: 110%;
+  text-align: justify; }
+  .inspiration a:hover {
+    color: #AD8DEE; }
+  .inspiration h4 {
+    font-family: Didot; }
+  .inspiration ul {
+    list-style-type: none;
+    font-family: Didot; }
+    .inspiration ul li a {
+      color: black;
+      text-decoration: none; }
+
+.news {
+  font-size: 110%;
+  margin-left: 11%;
+  text-align: justify; }
+  .news a:hover {
+    color: #AD8DEE; }
+  .news h4 {
+    font-family: Didot; }
+  .news ul {
+    list-style-type: none;
+    font-family: Didot; }
+    .news ul li a {
+      color: black;
+      text-decoration: none; }
+
+footer {
+  width: 40%;
+  margin: auto;
+  text-align: center;
+  margin-bottom: 3%;
+  color: gray;
+  font-family: Courier New; }
+
+@media (max-width: 768px) {
+  p {
+    color: red; } }
+img {
+  max-width: 20%; }
+
+.gallery {
+  padding-left: 20px; }
+  .gallery figure a img {
+    width: 150px;
+    height: auto;
+    float: left;
+    margin: 5px 5px 5px 5px; }
+
+.drops {
+  width: 960px;
+  height: 600px;
+  background-image: url("../images/drops.png");
+  background-repeat: no-repeat;
+  background-position: top left;
+  position: absolute;
+  left: 30%;
+  margin-left: -380px; }
+
+/*# sourceMappingURL=script.css.map */
